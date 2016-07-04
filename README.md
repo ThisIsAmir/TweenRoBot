@@ -1,3 +1,3 @@
-#id telegram user info bot 
+#id telegram bot user info bot 
 
 <b>license MIT</b>
