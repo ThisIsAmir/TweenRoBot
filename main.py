@@ -164,7 +164,8 @@ def ss(m):
 
 @bot.message_handler(commands=['leave'])
 def leavehandler(m):
-    bot.leave_chat(m.chat.id)
+    if m.from_user.id == config.is_sudo:
+        bot.leave_chat(m.chat.id)
 
 @bot.message_handler(commands=['whois'])
 def whois(m):
