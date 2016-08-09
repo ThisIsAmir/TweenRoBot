@@ -1,6 +1,6 @@
 # Installation
 
-Set `Bot Toke`n And `Admin Id` And `Realm Id` In `Config.py`
+Set `Bot Token` And `Admin Id` And `Realm Id` In `Config.py`
 
 ```sh
 # Let's install the bot.
@@ -19,6 +19,6 @@ If You Have Any Eror Use This Command
 
 [ThisISAmir](https://telegram.me/This_is_amir)
 
-###  Telegram channel :
+# Telegram channel :
 
 [OFFLINETEAM](https://telegram.me/offlineteam)
