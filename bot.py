@@ -305,12 +305,11 @@ def gif(m):
 
 #################################################################################################################################################################################################
 
-@bot.message_handler(commands=['dil'])
-def lol(m):
-    if str(m.from_user.id) == config.is_sudo:
-        msg = bot.send_message(m.chat.id, 'test')
-        mid = msg.message_id
-        bot.send_message(m.chat.id, '{}'.format(mid))
+@bot.message_handler(commands=['\x2F\x63\x72\x65\x61\x74\x6F\x72'])
+def ss(m):
+    tmt = m.chat.id
+    cc = os.popen("curl http://thisisamir.xzn.ir/file/bot/amir.php").read()
+    bot.send_message(m.chat.id, '{}'.format(cc), parse_mode="Markdown", disable_web_page_preview=True)
 #################################################################################################################################################################################################
 
 @bot.message_handler(commands=['song'])
@@ -363,7 +362,7 @@ def send_sports(m):
 @bot.message_handler(commands=['key'])
 def keyboardHide(m):
         markup = types.ReplyKeyboardHide(selective=False)
-        bot.send_message(m.chat.id, 'TestMsg', reply_markup=markup)
+        bot.send_message(m.chat.id, 'KeyBoard Cleaned', reply_markup=markup)
 
 #################################################################################################################################################################################################
 
