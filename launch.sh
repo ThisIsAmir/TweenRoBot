@@ -23,8 +23,7 @@ elif [ "$1" = "install" ]; then
   sudo pip install logging
   sudo apt-get install python2.7
   git clone https://github.com/ThisIsAmir/TweenRoBot.git
-  cd Tween-Bot
-  screen python2.7 info.py
+  cd TweenRoBot
 
 
 elif [ "$1" = "fix" ]; then
@@ -35,8 +34,7 @@ elif [ "$1" = "fix" ]; then
   sudo python setup.py install
   pip install pytelegrambotapi --upgrade
   cd $HOME
-  cd Tween-Bot
-  screen python2.7 bot.py
+  cd TweenRoBot
 
 
 elif [ "$1" = "--Update" ]; then
@@ -49,7 +47,7 @@ else
               \033[01;30m $ver \033[0m"
 
   while true; do
-	nohup python2.7 t.py
+	nohup python2.7 bot.py
 	sleep 0.5
   done
 fi
