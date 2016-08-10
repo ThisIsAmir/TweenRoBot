@@ -1048,9 +1048,9 @@ bot.polling(True)
 #| | | | |_| |_| |   | |  \| |/ _ \| |/ _ \/ _  |  _   _ \                                                                           
 #| |_| |  _|  _| |___| | |\  |  __/| |  __/ (_| | | | | | |                                                                          
  #\___/|_| |_| |_____|_|_| \_|\___||_|\___|\__,_|_| |_| |_|                                                                                                 
-Bot WrittedBy @This_Is_Amir
-MIT License (MIT)
-
+#Bot WrittedBy @This_Is_Amir
+#MIT License (MIT)
+#Special Tnx To @Negative
 
 
 
