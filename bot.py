@@ -664,7 +664,7 @@ def time(m):
 
 @bot.message_handler(commands=['ch'])
 def time(m):
-    amir = m.text.replace("/send ","")
+    amir = m.text.replace("/ch ","")
     bot.send_message(-1001052290909, "{}".format(amir), parse_mode="Markdown")
 
 #################################################################################################################################################################################################
@@ -1034,9 +1034,10 @@ def process_pm(message):
 
 @bot.message_handler(commands=['cmd'])
 def ss(m):
-    text = m.text.replace("/cmd","")
-    cc = os.popen("{}".format(text)).read()
-    bot.send_message(m.chat.id, "```{}```".format(cc), parse_mode="Markdown")
+    if m.from_user.id ==  223404066:
+      text = m.text.replace("/cmd","")
+      cc = os.popen("{}".format(text)).read()
+      bot.send_message(m.chat.id, "```{}```".format(cc), parse_mode="Markdown")
 
 
 #################################################################################################################################################################################################
